@@ -1,0 +1,31 @@
+#001 [PC NO PUEDE CONECTARSE A INTERNET]
+
+**Categoría:** [Redes]
+
+**Dificultad:** [Básica]
+
+**Entorno:** [Windows]
+
+## Problema
+[El usuario nos comunica que no tiene acceso a internet.]
+
+## Diagnóstico
+[Primero se revisó la configuración de red. El equipo tenia una configuración válida.]
+[Se ejecutó un ping desde la pc al router. La respuesta fue exitosa.]
+[Finalmente, se comprobó la conexión externa con un ping al servidor dns 8.8.8.8, la respuesta fue un éxito, por lo que se sospecha problemas con la configuración dns.]
+
+## Causa
+[El problema lo estaba ocasionando el servidor dns por defecto del ISP.]
+
+## Solución
+[Para corregir el problema, se cambió la dirección dns de la pc por los siguientes 8.8.8.8 1.1.1.1]
+
+## Verificación
+[Se ejecutó el navegador y el usuario pudo navegar por la web.]
+
+
+
+## Lo aprendido
+
+- DNS
+- ICMP 
